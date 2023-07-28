@@ -25,12 +25,14 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1', 
     'localhost',
+    'port-0-easydex-back-deploy-eg4e2alkn0stkb.sel4.cloudtype.app/'
 ]
 
 # 차후에 배포시, 배포된 URL 을 같이 반영해주어야 합니다.
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:3000', 
     'http://localhost:3000',
+    'https://port-0-easydex-back-deploy-eg4e2alkn0stkb.sel4.cloudtype.app/',
 ]
 CORS_ALLOW_CREDENTIALS = True # cookie를 주고받으려면 얘를 True로 설정해야 해요.
 
