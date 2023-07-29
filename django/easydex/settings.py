@@ -4,7 +4,7 @@ import environ
 from datetime import timedelta
 
 env = environ.Env(
-    DEBUG=(bool, True)
+    DEBUG=(bool, False)
 )
 
 # .env 가 속해있는 base dir 의 경로를 BASE_DIR 로 할당합니다. (django/.env)
@@ -25,7 +25,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1', 
     'localhost',
-    'port-0-easydex-back-deploy-eg4e2alkn0stkb.sel4.cloudtype.app/'
+    'port-0-easydex-back-deploy-eg4e2alkn0stkb.sel4.cloudtype.app'
 ]
 
 # 차후에 배포시, 배포된 URL 을 같이 반영해주어야 합니다.
