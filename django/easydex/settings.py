@@ -19,7 +19,7 @@ environ.Env.read_env(
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # 차후에 배포시, allowed host 에 배포된 URL 을 넣어줘야 합니다.
 ALLOWED_HOSTS = [
